@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Component from "./component";
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
         >
           Learn React and learn deployment
         </a>
+        <div className='counter-container'>
+          <Component name={"Belal"} />
+          <Component name={"Anas"} />
+          <Component name={"Asad"} />
+        </div>
       </header>
     </div>
   );
